@@ -1,0 +1,131 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./images/gear.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  background-image: url("./images/plaque.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 1em;
+  padding: 5em;
+  width: 100%;
+}
+
+h1 {
+  margin-top: 2px;
+  color: #77400a;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.5);
+}
+
+button {
+  background: #FFD673;
+  background-image: -webkit-linear-gradient(top, #FFD673, #745713);
+  background-image: -moz-linear-gradient(top, #FFD673, #745713);
+  background-image: -ms-linear-gradient(top, #FFD673, #745713);
+  background-image: -o-linear-gradient(top, #FFD673, #745713);
+  background-image: -webkit-gradient(to bottom, #FFD673, #745713);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFF285;
+  font-family: Georgia;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 17px;
+  -webkit-box-shadow: -1px 16px 47px 1px #000000;
+  -moz-box-shadow: -1px 16px 47px 1px #000000;
+  box-shadow: -1px 16px 47px 1px #000000;
+  text-shadow: 0 0 59px #000000;
+  border: solid #815E12 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+}
+
+button:hover {
+  border: outset #282214 1px;
+  background: #9D8957;
+  background-image: -webkit-linear-gradient(top, #9D8957, #7C642A);
+  background-image: -moz-linear-gradient(top, #9D8957, #7C642A);
+  background-image: -ms-linear-gradient(top, #9D8957, #7C642A);
+  background-image: -o-linear-gradient(top, #9D8957, #7C642A);
+  background-image: -webkit-gradient(to bottom, #9D8957, #7C642A);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+#jokeContainer {
+  width: 75%;
+  height: 100%;
+  border: 4px outset #6d6363;
+  margin-top: 20em;
+}
+
+.metal {
+  background-color: #2f2727;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+  background-image: -ms-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+  background-image: linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 10px;
+  margin: 0;
+}
+
+li {
+  margin: 30px 0;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 470px) {
+  header {
+    background-image: url("./images/plaque3.jpg");
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+
+  button {
+    font-size: 20px;
+  }
+
+  #jokeContainer {
+    margin-top: 16em;
+  }
+
+  li {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  li {
+    font-size: 1.5em;
+  }
+}
